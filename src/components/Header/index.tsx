@@ -12,7 +12,7 @@ export function Header() {
         <img src={logoImg} alt="logo" />
 
         <Dialog.Root>
-          {/* as child serve para que o trigger comporte como um containe ao invés de um botão */}
+          {/* as child serve para que o trigger comporte como um container ao invés de um botão */}
           <Dialog.Trigger asChild>
             <NewTransactionButton>Nova transação</NewTransactionButton>
           </Dialog.Trigger>
